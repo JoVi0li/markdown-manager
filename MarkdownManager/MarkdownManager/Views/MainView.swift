@@ -7,18 +7,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainView: View {
     var body: some View {
-        VStack {
-            Text("Markdown Manager")
-                .font(.title)
-        }
-        .padding()
+        HomeView()
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        MainView()
     }
 }
